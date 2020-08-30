@@ -1,0 +1,19 @@
+{
+  "name": "swag-tag-sl",
+  "version": "0.0.0",
+  "description": "Web component catalog viewer built with shoelace components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahrus/swag-tag-sl.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahrus/swag-tag-sl/issues"
+  },
+  "homepage": "https://github.com/bahrus/swag-tag-sl#readme"
+}
