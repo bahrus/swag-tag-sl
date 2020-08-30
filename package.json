@@ -4,7 +4,19 @@
   "description": "Web component catalog viewer built with shoelace components",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "es-dev-server --app-index demo/dev-catalog.html --node-resolve --watch --open"
+  },
+  "dependencies": {
+    "@shoelace-style/shoelace": "2.0.0-beta.16",
+    "trans-render": "0.0.255",
+    "xtal-element": "0.0.286",
+    "swag-tag": "0.0.32",
+    "p-et-alia": "0.0.114",
+    "toggle-trait": "0.0.1"
+  },
+  "devDependencies": {
+    "es-dev-server": "1.57.4"
   },
   "repository": {
     "type": "git",
