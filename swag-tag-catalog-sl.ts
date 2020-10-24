@@ -2,6 +2,9 @@ import { XtalElement, define, AttributeProps, TransformGetter, TransformValueOpt
 import { createTemplate } from 'trans-render/createTemplate.js';
 import('p-et-alia/p-d.js');
 import('p-et-alia/p-u.js');
+import { preemptiveImport } from 'xtal-sip/preemptiveImport';
+preemptiveImport(['shoelace.css',,'//cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.21/dist/shoelace/shoelace.css',,{cssScope: 'global'}]);
+preemptiveImport(['shoelace.js',,'//cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.21/dist/shoelace/shoelace.esm.js',,])
 
 const mainTemplate = createTemplate(/* html */`
 <style>
@@ -14,7 +17,7 @@ sl-menu{
 </style>
 <sl-icon-button name=card-list data-click-value="true"></sl-icon-button>
 <p-d on=click to=[-open] m=1 val=target.dataset.clickValue parse-val-as=boolean skip-init></p-d>
-<sl-drawer label="Catalog" -open class="drawer-overview">
+<sl-drawer label="Catalog" -open class="drawer-overview" placement=left>
   <sl-menu>
     <sl-menu-item value="undo">Undo</sl-menu-item>
     <sl-menu-item value="redo">Redo</sl-menu-item>

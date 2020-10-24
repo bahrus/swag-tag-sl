@@ -5,18 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "es-dev-server --app-index demo/dev-catalog.html --node-resolve --watch --open"
+    "start": "web-dev-server --app-index demo/dev-catalog.html --node-resolve --watch --open"
   },
   "dependencies": {
-    "@shoelace-style/shoelace": "2.0.0-beta.16",
-    "trans-render": "0.0.255",
-    "xtal-element": "0.0.286",
-    "swag-tag": "0.0.32",
-    "p-et-alia": "0.0.114",
-    "toggle-trait": "0.0.1"
+    "@shoelace-style/shoelace": "2.0.0-beta.21",
+    "trans-render": "0.0.267",
+    "xtal-element": "0.0.310",
+    "swag-tag": "0.0.40",
+    "xtal-sip": "0.0.105",
+    "p-et-alia": "0.0.118"
   },
   "devDependencies": {
-    "es-dev-server": "1.57.4"
+    "@web/dev-server": "0.0.15"
   },
   "repository": {
     "type": "git",
