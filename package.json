@@ -8,15 +8,15 @@
     "start": "web-dev-server --app-index demo/dev-catalog.html --node-resolve --watch --open"
   },
   "dependencies": {
-    "@shoelace-style/shoelace": "2.0.0-beta.21",
-    "trans-render": "0.0.267",
-    "xtal-element": "0.0.310",
+    "@shoelace-style/shoelace": "2.0.0-beta.22",
+    "trans-render": "0.0.269",
+    "xtal-element": "0.0.314",
     "swag-tag": "0.0.40",
-    "xtal-sip": "0.0.105",
+    "xtal-sip": "0.0.113",
     "p-et-alia": "0.0.118"
   },
   "devDependencies": {
-    "@web/dev-server": "0.0.15"
+    "@web/dev-server": "0.0.19"
   },
   "repository": {
     "type": "git",
