@@ -3,11 +3,14 @@
 		"target": "ESNext",
 		"module":"ESNext",
 		"sourceMap": false,
-		"experimentalDecorators": true,
+		"experimentalDecorators": false,
 		"strict": true,
 		"newLine": "LF",
 		"watch": true
 	},
+	"files": [
+		"swag-tag-sl.ts"
+	],
 	"exclude":[
 		"build",
 		"bower_components",

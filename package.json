@@ -5,18 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node node_modules/xtal-test/serve.js",
     "start": "web-dev-server --app-index demo/dev-catalog.html --node-resolve --watch --open"
   },
   "dependencies": {
-    "@shoelace-style/shoelace": "2.0.0-beta.22",
-    "trans-render": "0.0.269",
-    "xtal-element": "0.0.314",
-    "swag-tag": "0.0.40",
-    "xtal-sip": "0.0.113",
-    "p-et-alia": "0.0.118"
+    "@shoelace-style/shoelace": "2.0.0-beta.47",
+    "trans-render": "0.0.291",
+    "xtal-element": "0.0.418",
+    "swag-tag": "0.0.43",
+    "xtal-sip": "0.0.117",
+    "pass-down": "0.0.72"
   },
   "devDependencies": {
-    "@web/dev-server": "0.0.19"
+    "xtal-test": "0.0.51"
   },
   "repository": {
     "type": "git",
