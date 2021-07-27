@@ -12,7 +12,7 @@
     "@shoelace-style/shoelace": "2.0.0-beta.47",
     "trans-render": "0.0.291",
     "xtal-element": "0.0.418",
-    "swag-tag": "0.0.46",
+    "swag-tag": "0.0.48",
     "xtal-sip": "0.0.117",
     "pass-down": "0.0.72",
     "lib-id": "0.0.22",
@@ -22,7 +22,8 @@
     "aggregator-fn": "0.0.37"
   },
   "devDependencies": {
-    "xtal-test": "0.0.51"
+    "xtal-test": "0.0.51",
+    "custom-elements-manifest": "1.0.0"
   },
   "repository": {
     "type": "git",
