@@ -17,9 +17,10 @@ export const editor = html `
 <swag-tag-sl-i-bid -list><stsl-general-field-editor></stsl-general-field-editor></swag-tag-sl-i-bid>
 
 <template id=stsl-general-field-editor>
-<sl-textarea label={{name}} help-text={{description}}>{{val}}</sl-textarea>
+<sl-textarea label="Property: {{name}}" help-text={{description}}>{{val}}</sl-textarea>
+<hr>
 </template>
-<c-c copy from-prev-sibling string-props='["name", "description"]' obj-props='["val"]'></c-c>
+<c-c copy from-prev-sibling noshadow string-props='["name", "description"]' obj-props='["val"]'></c-c>
 `;
 export class SwagTagSL extends SwagTagBase{
   static is = 'swag-tag-sl';
