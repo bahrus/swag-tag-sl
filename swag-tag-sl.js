@@ -17,13 +17,16 @@ export const editor = html `
 <swag-tag-sl-i-bid -list tag=stsl-general-field-editor></swag-tag-sl-i-bid>
 <div>iah</div>
 
-<template>
-<sl-textarea class=field-editor label="Property: {{name}}" help-text={{description}}>{{val}}</sl-textarea>
-<p-d on=sl-change vft from=stsl-general-field-editor to=div prop={{name}}></p-d>
-<hr>
-<p>iah</p>
-</template>
-<d-fine fps as=stsl-general-field-editor noshadow sp='["name", "description"]' op='["val"]'></d-fine>
+<d-fine fct as=stsl-general-field-editor noshadow sp='["name", "description"]' op='["val"]'>
+  <template>
+  <sl-textarea class=field-editor label="Property: {{name}}" help-text={{description}}>{{val}}</sl-textarea>
+  <p-d on=sl-change vft from=stsl-general-field-editor to=div prop={{name}}></p-d>
+  <hr>
+  <p>iah</p>
+  </template>
+</d-fine>
+
+
 `;
 export class SwagTagSL extends SwagTagBase {
     constructor() {
