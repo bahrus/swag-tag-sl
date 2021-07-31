@@ -19,10 +19,10 @@ export const editor = html `
 
 <d-fine fct as=stsl-general-field-editor noshadow sp='["name", "description"]' op='["val"]'>
   <template>
-  <sl-textarea class=field-editor label="Property: {{name}}" help-text={{description}}>{{val}}</sl-textarea>
-  <p-d on=sl-change vft from=stsl-general-field-editor to=div prop={{name}}></p-d>
-  <hr>
-  <p>iah</p>
+    <sl-textarea class=field-editor label="Property: {{name}}" help-text={{description}}>{{val}}</sl-textarea>
+    <p-d on=sl-change vft from=stsl-general-field-editor to=div prop={{name}}></p-d>
+    <hr>
+    <p>iah</p>
   </template>
 </d-fine>
 
