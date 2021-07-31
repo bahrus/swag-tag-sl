@@ -14,7 +14,7 @@ export const editor = html `
   }
 </style>
 <p-d observe=wc-info-fetch vft=fields to=[-list] m=1></p-d>
-<swag-tag-sl-i-bid -list tag=stsl-general-field-editor></swag-tag-sl-i-bid>
+<swag-tag-sl-i-bid -list><stsl-general-field-editor></stsl-general-field-editor></swag-tag-sl-i-bid>
 <div>iah</div>
 
 <d-fine fct as=stsl-general-field-editor noshadow sp='["name", "description"]' op='["val"]'>

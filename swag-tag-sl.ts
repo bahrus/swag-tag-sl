@@ -1,4 +1,4 @@
-import {SwagTagBase, xc, xp, html} from 'swag-tag/lib/swag-tag-base.js';
+import {SwagTagBase, xc, html} from 'swag-tag/lib/swag-tag-base.js';
 import {EnhancedClassField} from 'wc-info/types.d.js';
 import {IBid} from 'ib-id/i-bid.js';
 import {ClassField} from 'node_modules/custom-elements-manifest/schema.d.js';

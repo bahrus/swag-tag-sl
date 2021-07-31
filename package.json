@@ -12,13 +12,13 @@
     "@shoelace-style/shoelace": "2.0.0-beta.47",
     "trans-render": "0.0.291",
     "xtal-element": "0.0.418",
-    "swag-tag": "0.0.48",
+    "swag-tag": "0.0.49",
     "xtal-sip": "0.0.117",
     "pass-down": "0.0.74",
     "lib-id": "0.0.22",
     "pass-prop": "0.0.19",
-    "d-fine": "0.0.7",
-    "if-diff": "0.0.103",
+    "d-fine": "0.0.8",
+    "if-diff": "0.0.104",
     "aggregator-fn": "0.0.37"
   },
   "devDependencies": {
